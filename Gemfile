@@ -27,6 +27,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem "better_errors"
 gem 'haml', '~> 4.0.6'
 gem "figaro"
+gem "httparty"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
