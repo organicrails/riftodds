@@ -1,3 +1,17 @@
 %p
+  In any given ranked game, the probability of 
   %b= @player.p1
-  = Player.return_id(@player.p1)
+  winning with
+  %b= @player.c1
+  is
+  = Player.determine_champion_probability(@player.p1, @player.c1)
+  &#37
+
+%p
+  In any given ranked game, the probability of 
+  %b= @player.p2
+  winning with
+  %b= @player.c2
+  is
+  = Player.determine_champion_probability(@player.p2, @player.c2)
+  &#37
