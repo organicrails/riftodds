@@ -1,0 +1,26 @@
+= form_for :player, url: players_path do |f|
+  = f.label :p1, "First Summoner's Name " 
+  %br/
+  = f.text_field :p1
+  %br/
+  %br/
+  = f.label :p2, "Second Summoner's Name"
+  %br/
+  = f.text_field :p2
+  %br/
+  %br/
+
+
+  = f.label :c1, "Summoner One's Champion"
+  %br/
+  = f.text_field :c1
+  %br/
+  %br/
+  = f.label :c2, "Summoner Two's Champion"
+  %br/
+  = f.text_field :c2
+  %br/
+  %br/
+
+
+  = f.submit
