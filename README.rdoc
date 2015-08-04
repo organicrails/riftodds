@@ -1,3 +1,5 @@
+== RiftOdds
+
 First tutorial on the Organic Rails Blog. This tutorial demonstrates my attempt to retrieve data from the Riot Games API and use them to calcualte simple win-rates for two players.
 
 The tutorial can be found here http://organicrails.github.io/2015-07-20-Riftodds/
